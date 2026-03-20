@@ -1,0 +1,45 @@
+﻿# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.g.dart
+
+# Android
+android/local.properties
+android/.gradle/
+android/app/google-services.json
+android/key.properties
+
+# iOS
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/.symlinks/
+ios/Pods/
+
+# Secrets
+.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS Desktop
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Misc
+pubspec.lock
+*.log
+
+# Firebase Config
+lib/firebase_options.dart
+
+
+# Temporary files and scripts
+*.txt
+*.log
+*.py
+test_*.dart
+
